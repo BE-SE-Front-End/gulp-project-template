@@ -1,14 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles/normalize.css" />
-  <link rel="stylesheet" href="styles/style.css" />
-  <title>Test name</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon-16x16.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto:wght@400;500;700&family=Source+Sans+Pro:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans&family=Roboto:wght@400;500;700&family=Source+Sans+Pro:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <title>portfolio</title>
+  </head>
+  <body class="wrapper">
+    <section class="homepage">
+      <div class="homepage__title">Bhromaon</div>
+      <div class="homepage__subtitle">Safe Travel Anywhere</div>
+      <form
+        class="homepage__searchform homepage-search"
+        action="https://www.google.com/search"
+        method="get"
+      >
+        <div class="homepage-search__searchbox homepage-searchbox">
+          <input
+            class="homepage-searchbox__input"
+            type="text"
+            name="q"
+            required
+            minlength="3"
+            placeholder="Search Your Travel Destination"
+          />
+        </div>
+        <div class="homepage-search__button homepage-button">
+          <button type="submit" class="homepage-button__button">Search</button>
+          <img src="img/search_icon.png" class="homepage-button__icon" />
+        </div>
+      </form>
+      <div class="homepage__scroll scroll-content">
+        <p class="scroll-content__text">Scroll Down</p>
+        <img src="img/scrolldown.png" class="scroll-content__icon" />
+      </div>
+      <div class="homepage__footer homepage-footerinfo">
+        <div class="homepage-footerinfo__title">Bhromaon</div>
+        <nav class="homepage-footerinfo__navigation footer-navigation">
+          <a href="#who" class="footer-navigation__menuwho"> Who We Are </a>
+          <a href="#what" class="footer-navigation__menuwhat"> What We Do </a>
+          <a href="#travel" class="footer-navigation__menutravel">
+            Travel With Us
+          </a>
+          <a href="#contact" class="footer-navigation__menucontact">
+            Contact Us
+          </a>
+        </nav>
+      </div>
+    </section>
 
-</body>
+    <section class="explore">
+      <div class="explore__content explorecontent-name">
+        <div class="explorecontent-name__title">Why Choose Us</div>
+        <p class="explorecontent-name__description">
+          Tion and dislike men who are so beguiled and demoralized by desire by
+          the charms of pleasure of the moment, so blinded by desire, that they
+          cannot foresee
+        </p>
+        <p class="explorecontent-name__description">
+          Ddislike men who are so beguiled and demoralized by the charms of
+          pleasure of the moment, so blinded by desire, that.
+        </p>
+        <div class="explorecontent-name__button explobutton-content">
+          <button class="explobutton-content__name">Explore Places</button>
+        </div>
+      </div>
+
+      <div class="explore__images exploreimages-content">
+        <img src="img/Image_a.png" class="exploreimages-content__lakeview" />
+        <img
+          src="img/Image_b.png"
+          class="exploreimages-content__mountainview"
+        />
+      </div>
+    </section>
+
+    <section class="works">
+      <div class="works__searchplace searchplace-content">
+        <img
+          src="img/search_place.png"
+          alt="search"
+          class="searchplace-content__image"
+        />
+        <div class="searchplace-content__text">Search Places</div>
+      </div>
+      <div class="works__selectplace selectplace-content">
+        <img src="img/tick.png" alt="tick" class="selectplace-content__image" />
+        <div class="selectplace-content__text">Select Places</div>
+      </div>
+      <div class="works__booking booking-content">
+        <img
+          src="img/thumbsup.png"
+          alt="thumbsup"
+          class="booking-content__image"
+        />
+        <div class="booking-content__text">Book & Enjoy</div>
+      </div>
+    </section>
+
+    <section class="booking">
+      <div class="booking__spainstay">
+        <div class="booking__spainstay spainstay-contents">
+          <div class="spainstay-contents__title">Spain</div>
+          <div class="spainstay-contents__sub">Grand Spain Madrid</div>
+          <p class="spainstay-contents__description">
+            But I must explain to you how all this mistaken idea of account to
+            denouncing pleasure and praising pain was account born and I account
+            will give you a complete account of the system
+          </p>
+          <div class="spainstay-contents__bookbutton bookbutton-content">
+            <button class="bookbutton-content__text">Book Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="booking__spaindestination">
+        <div class="booking__spaindestination spaindestination-contents">
+          <div class="spaindestination-contents__title">Spain</div>
+          <div class="spaindestination-contents__sub">Grand Spain Madrid</div>
+          <p class="spaindestination-contents__description">
+            But I must explain to you how all this mistaken idea of account to
+            denouncing pleasure and praising pain was account born and I account
+            will give you a complete account of the system
+          </p>
+          <div
+            class="spaindestination-contents__bookbutton destibookbutton-content"
+          >
+            <button class="destibookbutton-content__text">Book Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <div class="testimonials__title">What Our Tourist Say</div>
+      <div class="testimonials__content testimonial-content">
+        <div class="testimonial-content__image testimonial-image">
+          <img
+            src="img/Rectangle 41441 1.png"
+            alt="testimonial"
+            class="testimonials-image__image"
+          />
+        </div>
+        <div class="testimonial-content__text testimonial-text">
+          <div class="testimonial-text__title">Sam Sumon</div>
+          <span class="testimonial-text__description">
+            "But I must explain to you how all this mistaken idea of account to
+            denouncinpleasure and praising pain But I must explain to you how
+            all this mistaken idea of account to nai denouncing pleasure and
+            praising pain was account born and I account will give you a
+            complete account of the system was account born and I account will
+            give you a nai the complete account of the system
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="footer__logo logo-content">
+        <div class="logo-content__title">bhromaon</div>
+        <div class="logo-content__sub">Safe Travel Anywhere</div>
+      </div>
+      <div class="footer__icon icon-content">
+        <img
+          src="img/f_logo.png"
+          alt="fb-logo"
+          class="icon-content__facebook"
+        />
+        <img
+          src="img/twitter_logo.png"
+          alt="twitter-logo"
+          class="icon-content__twitter"
+        />
+        <img
+          src="img/linkedin_logo.png"
+          alt="linkedin-logo"
+          class="icon-content__linkedin"
+        />
+        <img
+          src="img/youtube_logo.png"
+          alt="youtube-logo"
+          class="icon-content__youtube"
+        />
+        <img
+          src="img/pinterest_logo.png"
+          alt="pinterest-logo"
+          class="icon-content__pinterest"
+        />
+      </div>
+    </section>
+  </body>
 </html>
